@@ -7,6 +7,7 @@ IS_PC = False
 IS_MICROPYTHON = (sys.implementation.name == 'micropython')
 IS_ESP8266 = (os.uname().sysname == 'esp8266')
 IS_ESP32 = (os.uname().sysname == 'esp32')
+IS_ESP32 = (os.uname().sysname == 'esp32_LoBo')
 IS_TTGO_LORA_OLED = None
 IS_RPi = not (IS_MICROPYTHON or IS_PC)
 

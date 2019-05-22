@@ -1,5 +1,6 @@
 import sx127x
-import config_lora 
+import config_lora
+from controller_esp_ttgo_lora_oled import Controller
 
 # import LoRaDumpRegisters
 # import LoRaSender
@@ -19,7 +20,7 @@ def main():
                # on_board_led_high_is_on = ON_BOARD_LED_HIGH_IS_ON,
                # pin_id_reset = PIN_ID_FOR_LORA_RESET, 
                # blink_on_start = (2, 0.5, 0.5))
-    controller = config_lora.Controller()
+    controller = Controller()
     
     
     # SX127x(name = 'SX127x',

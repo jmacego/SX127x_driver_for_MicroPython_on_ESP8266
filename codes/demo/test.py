@@ -1,5 +1,5 @@
 import sx127x
-import config_lora 
+from controller import config_lora 
 
 # import LoRaDumpRegisters
 # import LoRaSender
